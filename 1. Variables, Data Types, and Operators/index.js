@@ -65,7 +65,7 @@ console.log(4 in municipalities); // returns false since index 4 does not exist
 
 // Checkpoint 1.5 What does [] == false evaluate to? Why does that happen? Research why
 // Answer: 
-//  Abstract Equality comparison (==) is different from Strict equality comparison (===).
+//  Abstract Equality comparison (==) is different from Strict Equality comparison (===).
 //  Abstract Equality comparison makes Javascript do type coercion of two values that are being compared.
 //  [] is a truthy value because all objects are truthy.
 //  Since false is primitive, It tries to compare them by converting [] as a primitive.
